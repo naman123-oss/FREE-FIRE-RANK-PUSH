@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Free Fire Score Push</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🔥 Free Fire Score Push</h1>
+
+    <label>Mode</label>
+    <select id="mode">
+      <option>BR</option>
+      <option>Glory</option>
+    </select>
+
+    <input type="number" id="currentScore" placeholder="Current Score">
+    <input type="number" id="targetScore" placeholder="Target Score">
+    <input type="number" id="daysLeft" placeholder="Days Left">
+    <input type="number" id="avgPerMatch" placeholder="Avg Score per Match">
+
+    <button onclick="calculate()">CALCULATE</button>
+
+    <div id="result"></div>
+
+    <p class="credit">Made by <span>GNA 27</span> 💙</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
